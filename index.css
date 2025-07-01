@@ -126,8 +126,9 @@ width:400px ;
 border:none;
 color:hsl(224, 23%, 55%);
 background-color: white;
- font-size: 13px;
-    font-weight: 700;
+ font-size: 15px;
+    font-weight: 710;
+    padding: 3px;
 }
 .body-2{
     width:400px;
