@@ -12,7 +12,7 @@ body{
      text-align: center;
      font-family: 'Red Hat Display', sans-serif; 
       background-image: url('./images/pattern-background-desktop.svg'), url('./images/pattern-background-mobile.svg'); 
-      background-size:cover, 100px,1000px;
+      background-size:cover, 50px,1000px;
       background-repeat: no-repeat;           
       background-position: center; 
       background-color: hsl(225, 100%, 94%);
@@ -23,31 +23,32 @@ body{
     
 
 .card{
-width:500px ;
-display:flex;
+width:400px ;
+  display:flex;
  align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 20px;
-    margin: 10px;
     overflow: hidden;
     gap:24px;
      background-color: hsl(225, 100%, 98%);
      padding-bottom: 45px;
+
+     margin: 15px;
      
-     align-self: center;
+     
 }
 
 .gap{
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
     
 }
 .p-1{
     color: hsl(224, 23%, 55%);
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     
     padding: 30px;
      line-height: 1.2;
@@ -60,22 +61,22 @@ display:flex;
     justify-content: center;
     align-items: center;
     height: 355px;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 .h-1{
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    font-size: 35px;
+    font-size: 30px;
 }
 .p-2{
     color:hsl(224, 23%, 55%);
     font-weight:800 ;
-    font-size:20px ;
+    font-size:18px ;
 }
 .h-2{
    color: hsl(223, 47%, 23%); 
    font-weight: 800;
-   font-size: 20px; 
+   font-size: 18px; 
 }
 .large{
     display:flex;
@@ -96,7 +97,7 @@ display:flex;
 }
 .blue{
     color:hsl(245, 75%, 52%);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 1000;
     display: flex;
      
@@ -125,7 +126,7 @@ display:flex;
 border:none;
 color:hsl(224, 23%, 55%);
 background-color: white;
- font-size: 14px;
+ font-size: 13px;
     font-weight: 700;
 }
 .body-2{
